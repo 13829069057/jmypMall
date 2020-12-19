@@ -1,0 +1,209 @@
+/* 头部 */
+
+
+/* banner */
+
+.swiper-container {
+    width: 100%;
+    height: 352px;
+}
+
+.swiper-slide>img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+/* 每日必看 */
+
+.main {
+    width: 100%;
+    background: #f7f7f7;
+    padding-bottom: 20px;
+}
+
+.everyday {
+    width: 100%;
+    height: 28px;
+    /* padding: 20px 0; */
+    margin-top: 20px;
+    background: #f7f7f7;
+}
+
+.everyday>em {
+    display: block;
+    width: 1090px;
+    margin: 0 auto;
+    height: 100%;
+    background: url(../img/top.jpg) no-repeat;
+}
+
+.sxdp {
+    width: 1090px;
+    height: 28px;
+    margin-top: 20px;
+    background: #f7f7f7;
+    margin: 0 auto;
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+}
+
+.sxdp>em {
+    display: block;
+    width: 500px;
+    /* margin: 0 auto; */
+    height: 100%;
+    background: url(../img/main_tit02_02.png) no-repeat;
+    background-position: 0 -203px;
+}
+
+
+/* 渲染数据 */
+
+.main_product {
+    width: 1090px;
+    margin: 0 auto;
+    background: #f7f7f7;
+}
+
+#data li {
+    width: 350px;
+    height: 470px;
+    box-shadow: 2px 2px 4px #e3e3e3;
+    background: #fff;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 20px;
+}
+
+#data .data_li:nth-of-type(3n) {
+    margin-right: 0;
+}
+
+#data li .speed {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background: url(http://a5.jmstatic.com/f5f722f0e8920d0d/new_haitao_icon.jpg) no-repeat;
+}
+
+#data li .data_pic {
+    margin-left: -238px;
+    width: 862px;
+    height: 345px;
+    background: #f7f7f7;
+}
+
+#data li .data_text {
+    font-size: 14px;
+    line-height: 24px;
+    height: 48px;
+    font-weight: 400;
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+#data li .data_text>a {
+    color: #333;
+}
+
+#data li .data_price {
+    height: 45px;
+    line-height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#data li .data_price>a {
+    color: #ed145b;
+}
+
+#data li .data_price span {
+    font-size: 22px;
+}
+
+#data li .data_dw {
+    width: 330px;
+    height: 30px;
+    position: absolute;
+    top: 326px;
+    left: 10px;
+    background: rgba(0, 0, 0, .6);
+    display: none;
+}
+
+#data li .data_message {
+    background: rgba(159, 108, 168, .6);
+    width: 330px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+#data li .data_message>p {
+    height: 30px;
+    line-height: 30px;
+}
+
+#data li .data_message>p>a {
+    color: #fff;
+    font-size: 12px;
+}
+
+#data li .data_dw_tow {
+    position: absolute;
+    width: 79px;
+    height: 26px;
+    background: #ed155b;
+    text-align: center;
+    top: 10px;
+    right: 10px;
+    display: none;
+    line-height: 26px;
+    z-index: 3;
+}
+
+#data li .data_dw_tow>p {
+    color: #fff;
+    font-size: 12px;
+}
+
+#data li:hover {
+    opacity: 0.8;
+}
+
+#data li:hover .data_dw_tow {
+    display: block;
+}
+
+#data li:hover .data_dw {
+    display: block;
+}
+
+.up {
+    border: 1px solid #cccccc;
+}
+
+.down {
+    border: 1px solid #cccccc;
+}
+
+.main_product>button {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 20px;
+    /* color: #fff; */
+}
+
+.main_product>button:hover {
+    background: red;
+}
+
+
+/* 定位 */

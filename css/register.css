@@ -1,0 +1,299 @@
+    /* 协议 */
+    
+    .alert-box-mask {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, .5);
+        z-index: 1;
+        display: block;
+    }
+    
+    .protocol-box {
+        font-size: 16px;
+        padding-top: 20px;
+        width: 600px;
+        height: 501px;
+        position: fixed;
+        top: calc((100vh - 501px) / 2);
+        left: calc((100% - 600px) / 2);
+        background: #fff;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+    }
+    
+    .pro-content {
+        text-align: justify;
+        padding: 20px 30px 0;
+    }
+    
+    .confirm {
+        width: 240px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        position: absolute;
+        background: #fe4070;
+        bottom: 70px;
+        left: 178px;
+    }
+    
+    .ok .confirm span:nth-of-type(1) {
+        color: #fff;
+        font-size: 20px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    
+    .ok .confirm span:nth-of-type(2) {
+        color: #fff;
+        font-size: 20px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    /* 头部 */
+    
+    .header {
+        height: 85px;
+        width: 960px;
+        margin: 0 auto;
+        /* background-color: aqua; */
+    }
+    
+    .header .logo {
+        width: 360px;
+        height: 85px;
+        float: left;
+    }
+    
+    .logo a {
+        display: block;
+        width: 360px;
+        height: 85px;
+        /* float: left; */
+    }
+    
+    .header .box {
+        width: 462px;
+        height: 66px;
+        float: right;
+        padding-top: 35px;
+    }
+    
+    .box a {
+        display: inline-block;
+        margin-right: 6px;
+    }
+    
+    .box a:nth-of-type(1) {
+        background: url(../img/header_corn_new_v2.png) no-repeat;
+        width: 110px;
+        height: 30px;
+        /* overflow: hidden; */
+    }
+    
+    .box a:nth-of-type(2) {
+        background: url(../img/gild.png) no-repeat;
+        width: 170px;
+        height: 31px;
+        /* overflow: hidden; */
+    }
+    
+    .box a:nth-of-type(3) {
+        background: url(../img/header_corn_new_v2.png);
+        background-position: 0 -64px;
+        width: 110px;
+        height: 31px;
+        /* overflow: hidden; */
+    }
+    /* 内容 */
+    
+    .content {
+        width: 960px;
+        height: 417px;
+        margin: 60px auto;
+        margin-bottom: 100px;
+        /* background-color: aqua; */
+    }
+    
+    .content .login {
+        position: relative;
+    }
+    
+    .login_l {
+        position: absolute;
+        width: 960px;
+        height: 360px;
+        background: url(../img/signPic.jpg);
+    }
+    /* 注册 */
+    
+    .login_r {
+        width: 350px;
+        position: absolute;
+        box-shadow: 0 0 4px rgba(0, 0, 0, .075);
+        background: rgba(255, 255, 255, .85);
+        right: 0;
+        padding: 0 25px;
+    }
+    
+    .login_r h1 {
+        font-family: "Microsoft YaHei", "微软雅黑", "黑体";
+        font-size: 20px;
+        color: #e31256;
+        height: 30px;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+    
+    .login_r h1 span {
+        float: left;
+        font-weight: 700;
+    }
+    
+    .login_r .tosignup {
+        color: #969696;
+        float: right;
+        font-size: 10px;
+    }
+    
+    .tosignup a {
+        color: #e31256;
+    }
+    
+    .login_r p input {
+        width: 300px;
+        height: 42px;
+        line-height: 42px;
+        border: 1px solid #cccccc;
+        margin-bottom: 16px;
+        margin-top: 16px;
+        padding: 0 6px;
+    }
+    
+    .yzm {
+        position: relative;
+    }
+    
+    #zhuce p {
+        position: relative;
+    }
+    
+    .login_r p span {
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        color: red;
+        font-size: 12px;
+    }
+    
+    .login_r p em {
+        position: absolute;
+        bottom: 26px;
+        right: 10px;
+        font-size: 20px;
+        color: green;
+        display: none;
+    }
+    
+    .login_r p .yzmDui {
+        bottom: 26px;
+        right: 128px;
+    }
+    
+    .login_r .yzm input {
+        width: 180px;
+        height: 42px;
+        line-height: 42px;
+        border: 1px solid #cccccc;
+        margin-bottom: 16px;
+        margin-top: 16px;
+        padding: 0 6px;
+    }
+    
+    #gVerify {
+        width: 80px;
+        float: right;
+        position: absolute;
+        height: 42px;
+        top: 16px;
+        right: 16px;
+    }
+    
+    .login_r p .btn {
+        width: 300px;
+        height: 42px;
+        background: #F8296D;
+        line-height: 42px;
+        color: #fff;
+        margin-top: 12px;
+    }
+    
+    .login_r .text {
+        font-size: 12px;
+    }
+    
+    .login_r .text i:nth-of-type(1) {
+        float: left;
+        margin: 6px 0;
+        margin-bottom: 30px;
+    }
+    
+    .login_r .text i a {
+        color: #ed145b
+    }
+    
+    .login_r .text i:nth-of-type(2) {
+        float: right;
+        margin: 6px 0;
+    }
+    /* 底部 */
+    
+    .footer {
+        width: 960px;
+        text-align: center;
+        /* height: 220px; */
+        color: #000;
+        font-size: 12px;
+        margin: 0 auto;
+    }
+    
+    .footer_pic a {
+        display: inline-block;
+        width: 126px;
+        height: 50px;
+        margin-top: 30px;
+        /* float: left; */
+        text-align: center;
+        border-bottom: 1px solid #cccccc;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-bottom: 50px;
+    }
+    
+    .footer_pic a:nth-of-type(1) {
+        background: url(../img/footer_btm_icon.png) no-repeat;
+        background-position: 0 0;
+    }
+    
+    .footer_pic a:nth-of-type(2) {
+        background: url(../img/footer_btm_icon.png) no-repeat;
+        background-position: -126px 0;
+    }
+    
+    .footer_pic a:nth-of-type(3) {
+        background: url(../img/footer_btm_icon.png) no-repeat;
+        background-position: -252px 0;
+    }
+    
+    .footer_pic a:nth-of-type(4) {
+        background: url(../img/footer_btm_icon.png) no-repeat;
+        background-position: -378px 0;
+    }
+    
+    .footer_pic a:nth-of-type(5) {
+        background: url(../img/footer_btm_icon.png) no-repeat;
+        background-position: -504px 0;
+    }

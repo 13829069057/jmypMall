@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/register.css">
+
+</head>
+
+<body>
+
+    <!-- 协议 -->
+    <div class="alert-box-mask">
+        <div class="protocol-box">
+            <div class="close-box" onclick="closeBo()"></div>
+            <div class="pro-title">协议订立须知</div>
+            <div class="pro-content">
+                <p><b>在您注册成为聚美用户的过程中，您需要完成我们的注册流程并通过点击同意的形式签署《聚美优品用户协议》、《聚美隐私权政策》</b>。
+                </p>
+                <p><b>★
+                        <text class="double-lines">审慎阅读</text>
+                        ：</b>您在申请用户注册流程中点击同意并接受协议之前，应当认真阅读《聚美优品用户协议》和《聚美隐私权政策》（“协议”）。<b>
+                        <text class="one-line">
+                            请您务必审慎阅读、充分理解各条款内容，特别是免除或者限制责任的条款、法律适用和争议解决条款，并确定了解我们对您个人信息的处理规则。您有权选择同意或者不同意协议。
+                        </text>
+                    </b>如您对协议有任何疑问，可向聚美客服咨询。
+                </p>
+                <p><b>★
+                        <text class="double-lines">签约动作</text>
+                        ：</b>当您按照注册页面提示填写信息、<b>
+                        <text class="one-line">点击“同意协议并注册”且完成全部注册程序后，</text>
+                    </b>即表示您已充分阅读、理解并接受协议的全部内容，您同意聚美可以依据隐私政策内容来处理您的个人信息，同时也表明您与聚美达成一致，成为聚美“用户”。
+                </p>
+                <p class="one-line"><b>阅读协议过程中，如您不同意相关协议或其中任何条款约定，应立即停止注册程序或停止使用聚美平台服务。 </b>
+                </p>
+
+                <button class="confirm "><span>确</span><span>定</span></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 头部 -->
+    <div class="header clearfix">
+        <div class="logo clearfix">
+            <a href="">
+                <img src="http://p0.jmstatic.com/templates/jumei/images/logo_new_v1.jpg" alt="">
+            </a>
+        </div>
+        <div class="box">
+            <a href="">
+            </a>
+            <a href="">
+            </a>
+            <a href="">
+            </a>
+        </div>
+    </div>
+
+    <!-- 内容 -->
+    <div class="content clearfix">
+        <div class="login">
+            <div class="login_l">
+            </div>
+            <div class="login_r">
+                <h1>
+                    <span>用户注册</span>
+                    <div class="tosignup">已有账号<a href="login.html">在此登录</a></div>
+                </h1>
+                <form action="" id="zhuce">
+                    <p class="use">
+                        <input type="text" placeholder="手机号" id="tel" name="tel"><em class="telDui">√</em><span class="telCw"></span>
+                    </p>
+                    <p class="yzm">
+                        <input type="text" placeholder="验证码" id="yzm"><em class="yzmDui">√</em><span class="yzmCw"></span>
+                        <i id="gVerify"></i>
+                    </p>
+                    <p>
+                        <input type="text" placeholder="密码" id="password" name="password"><em class="pswDui">√</em><span class="pswCw"></span>
+                    </p>
+                    <p>
+                        <input type="text" placeholder="重复密码" id="repe"><em class="repeDui">√</em><span class="repeCw"></span>
+                    </p>
+                    <p>
+                        <button class="btn">同意协议并注册</button>
+                    </p>
+                    <p class="text"><i><a href="">《聚美优品用户协议》</a></i><i><a href="">《聚美隐私权政策》</a></i></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <div class="footer clearfix">
+        <p>
+            Copyright © 2010-2015 北京创锐文化传媒有限公司 Jumei.com 保留一切权利。客服热线：400-123-8888
+            <br> 京公网安备 11010102001226 号 | <a href="http://www.miibeian.gov.cn" target="_blank" rel="nofollow">京ICP证111033号</a> | 食品流通许可证 SP1101051110165515（1-1）<a href="http://mp5.jmstatic.com/mobile/pc/chuangrui.jpg" target="_blank" rel="nofollow">营业执照</a>
+            <a href="http://f1.jmstatic.com/static_account/dist/v1.0.85067/images/other/zhidu.pdf" target="_blank" rel="nofollow">公示制度</a> |
+        </p>
+        <p class="footer_pic">
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+        </p>
+
+    </div>
+
+
+
+
+    <script src="../js/utils.js"></script>
+    <script src="../js/jquery/jquery.min.js"></script>
+    <script src="../js/gverify.js"></script>
+    <script src="../validate/jquery.validate.min.js"></script>
+    <script src="../js/ajax.js"></script>
+    <script src="../js/register.js"></script>
+</body>
+
+
+
+
+
+
+</html>

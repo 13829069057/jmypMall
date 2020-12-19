@@ -1,0 +1,146 @@
+    /* main */
+    
+    .mian {
+        /* height: 500px; */
+        width: 1090px;
+        margin: 0 auto;
+        /* background-color: violet; */
+    }
+    
+    .mian_product {
+        width: 100%;
+        margin: 20px 0;
+        border: 1px solid #e3e3e3;
+        box-shadow: 1px 1px 4px #e3e3e3;
+        background: #fff;
+        position: relative;
+    }
+    
+    .mian .haiwai {
+        background: #ececec;
+        padding-top: 20px;
+    }
+    
+    .mian .haiwai li {
+        height: 92px;
+        width: 1090px;
+        margin: 0 auto;
+        background: url(http://a1.global.jmstatic.com/9cb8a36d6fbb6edc/top_link.jpg)no-repeat;
+        overflow: hidden;
+    }
+    
+    .mian .product_l {
+        float: left;
+        width: 575px;
+        height: 360px;
+    }
+    
+    .product_l img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .mian .product_r {
+        float: left;
+        width: 436px;
+        height: 317px;
+    }
+    
+    .product_r .product_time {
+        padding-top: 17px;
+        border-bottom: 1px #eee solid;
+        padding-bottom: 6px;
+    }
+    
+    .product_r .product_time>img {
+        width: 62px;
+        height: 42px;
+        float: left;
+        margin-right: 10px;
+        margin-top: -2px;
+        border: 1px solid #eee;
+    }
+    
+    .product_r .product_time ul {
+        float: left;
+        color: #424242;
+        font-size: 12px;
+        margin-top: 4px;
+    }
+    
+    .product_time .diff {
+        float: right;
+        color: #424242;
+        font-size: 12px;
+        margin-top: 8px;
+    }
+    
+    .product_time .diff span em {
+        color: red;
+        margin: 0 2px;
+    }
+    
+    .product_int p>span {
+        color: #afaeae;
+        line-height: 15px;
+    }
+    
+    .product_int p {
+        font-size: 15px;
+        line-height: 27px;
+        color: #393939;
+        margin-top: 5px;
+    }
+    
+    .product_int .price {
+        color: #ec2b8c;
+        font-size: 20px;
+        margin-top: 20px;
+        position: relative;
+    }
+    
+    .product_int .price>span {
+        font-size: 28px;
+        color: #ec2b8c;
+    }
+    
+    .product_int .price em {
+        line-height: 20px;
+        text-align: center;
+        background: #efbe53;
+        font-size: 12px;
+        color: #fff;
+        /* padding: 3px; */
+        top: 0;
+        left: 90px;
+        width: 32px;
+        height: 20px;
+        position: absolute;
+    }
+    
+    .product_int .goumai {
+        font-size: 12px;
+        color: #afaeae;
+        margin-top: 6px;
+    }
+    
+    .product_int .goumai>span {
+        color: #393939;
+        font-size: 16px;
+    }
+    
+    .mian_details {
+        position: absolute;
+        background-image: url(http://a2.global.jmstatic.com/c23400d332c64c11/index_cbtn.png);
+        background-repeat: no-repeat;
+        display: inline-block;
+        background-position: -75px 0;
+        width: 63px;
+        height: 63px;
+        bottom: 40px;
+        right: 40px;
+    }
+    
+    .mian_product:hover {
+        box-shadow: 6px 6px 18px 8px #e3e3e3;
+    }

@@ -1,0 +1,202 @@
+    /* 头部 */
+    
+    .header {
+        height: 85px;
+        width: 960px;
+        margin: 0 auto;
+        /* background-color: aqua; */
+    }
+    
+    .header .logo {
+        width: 360px;
+        height: 85px;
+        float: left;
+    }
+    
+    .logo a {
+        display: block;
+        width: 360px;
+        height: 85px;
+        /* float: left; */
+    }
+    
+    .header .box {
+        width: 462px;
+        height: 66px;
+        float: right;
+        padding-top: 35px;
+    }
+    
+    .box a {
+        display: inline-block;
+        margin-right: 6px;
+    }
+    
+    .box a:nth-of-type(1) {
+        background: url(../img/header_corn_new_v2.png) no-repeat;
+        width: 110px;
+        height: 30px;
+        /* overflow: hidden; */
+    }
+    
+    .box a:nth-of-type(2) {
+        background: url(../img/gild.png) no-repeat;
+        width: 170px;
+        height: 31px;
+        /* overflow: hidden; */
+    }
+    
+    .box a:nth-of-type(3) {
+        background: url(../img/header_corn_new_v2.png);
+        background-position: 0 -64px;
+        width: 110px;
+        height: 31px;
+        /* overflow: hidden; */
+    }
+    /* 内容 */
+    
+    .content {
+        width: 960px;
+        height: 417px;
+        margin: 50px auto;
+        /* background-color: aqua; */
+    }
+    
+    .content .login {
+        position: relative;
+    }
+    
+    .login_l {
+        position: absolute;
+        width: 960px;
+        height: 360px;
+        background: url(../img/loginPic.jpg);
+    }
+    /* 登录 */
+    
+    .login_r {
+        width: 350px;
+        position: absolute;
+        box-shadow: 0 0 4px rgba(0, 0, 0, .075);
+        background: rgba(255, 255, 255, .85);
+        right: 0;
+        padding: 0 25px;
+    }
+    
+    .login_r h1 {
+        font-family: "Microsoft YaHei", "微软雅黑", "黑体";
+        font-size: 20px;
+        color: #e31256;
+        height: 30px;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+    
+    .login_r h1 span {
+        float: left;
+    }
+    
+    .login_r .tosignup {
+        color: #969696;
+        float: right;
+        font-size: 10px;
+    }
+    
+    .tosignup a {
+        color: #e31256;
+    }
+    
+    .login_r p input {
+        width: 300px;
+        height: 42px;
+        line-height: 42px;
+        border: 1px solid #cccccc;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+    
+    .login_r p {
+        position: relative;
+    }
+    
+    .login_r p span {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        color: red;
+        font-size: 12px;
+    }
+    
+    .login_r p .btn {
+        width: 300px;
+        height: 42px;
+        background: #F8296D;
+        line-height: 42px;
+        color: #fff;
+    }
+    
+    .login_r .text {
+        color: #333;
+        font-size: 12px;
+        margin: 6px 0;
+    }
+    
+    .login_r .else {
+        width: 266px;
+        height: 42px;
+        background: url(../img/icon_light.jpg) no-repeat;
+        display: block;
+        margin-bottom: 12px;
+    }
+    /* 底部 */
+    
+    .footer {
+        width: 960px;
+        text-align: center;
+        /* height: 220px; */
+        color: #000;
+        font-size: 12px;
+        margin: 0 auto;
+    }
+    /* .footer_pic {
+        width: ;
+    } */
+    
+    .footer_pic a {
+        display: inline-block;
+        width: 126px;
+        height: 50px;
+        margin-top: 30px;
+        /* float: left; */
+        text-align: center;
+        border-bottom: 1px solid #cccccc;
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-bottom: 50px;
+    }
+    
+    .footer_pic a:nth-of-type(1) {
+        background: url(../img/footer_btm_icon.png) no-repeat;
+        background-position: 0 0;
+    }
+    
+    .footer_pic a:nth-of-type(2) {
+        background: url(../img/footer_btm_icon.png) no-repeat;
+        background-position: -126px 0;
+    }
+    
+    .footer_pic a:nth-of-type(3) {
+        background: url(../img/footer_btm_icon.png) no-repeat;
+        background-position: -252px 0;
+    }
+    
+    .footer_pic a:nth-of-type(4) {
+        background: url(../img/footer_btm_icon.png) no-repeat;
+        background-position: -378px 0;
+    }
+    
+    .footer_pic a:nth-of-type(5) {
+        background: url(../img/footer_btm_icon.png) no-repeat;
+        background-position: -504px 0;
+    }
